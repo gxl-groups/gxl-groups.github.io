@@ -1,13 +1,27 @@
 ---
-layout: post
-categories: Notes
+title: GithubPages安装
+author: 残月溪冰
+layout: default
+
+nav_exclude: false
+search_exclude: false
+nav_order: 1
+has_children: false
+parent: GithubPages
+grand_parent: envs_tools
 ---
 
-# 搭建GitHub Pages
 
-[TOC]
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
+{: .no_toc .text-delta }
 
-## 使用Jekyll 创建GitHub Pages 站点
 
 ### [安装Ruby](https://www.ruby-lang.org/en/documentation/installation/)
 
