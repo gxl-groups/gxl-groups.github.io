@@ -7,8 +7,11 @@ search_exclude: false
 nav_order: 3
 has_children: false
 parent: GithubPages
-grand_parent: envs_tools
+grand_parent: 常用环境工具软件
 ---
+
+1. TOC
+{:toc}
 
 ## just the docs主题导航结构
 

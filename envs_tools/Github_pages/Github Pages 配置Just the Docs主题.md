@@ -4,9 +4,9 @@ author: 残月溪冰
 layout: default
 nav_exclude: false
 search_exclude: false
-nav_order: 1
+nav_order: 2
 parent: GithubPages
-grand_parent: envs_tools
+grand_parent: 常用环境工具软件
 ---
 
 - toc

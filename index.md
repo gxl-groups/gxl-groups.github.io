@@ -57,4 +57,5 @@ search_exclude: false
 
 - [ ] 文件下载功能
 - [ ] 评论反馈功能
+- [ ] Github pages 协同编写更新
 - [ ] ......
