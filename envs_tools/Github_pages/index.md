@@ -1,5 +1,5 @@
 ---
-title: GitHubPages
+title: GithubPages
 author: 残月溪冰
 layout: default
 
