@@ -161,9 +161,68 @@ Anaconda的安装路径不能包含空格或者Unicode字符
 
 
 
-### 在Ubuntu上安装Anaconda
+### 在Linux上安装Anaconda
+
+为了使用GUI包,需要先安装Qt依赖.
+对于*Debian*系列的发行版,可以通过下面的命令安装:
+```bash
+apt-get install libgl1-mesa-glx libegl1-mesa libxrandr2 libxrandr2 libxss1 libxcursor1 libxcomposite1 libasound2 libxi6 libxtst6
+```
+
+#### 下载[Anaconda Installer for Linux](https://www.anaconda.com/download/#linux)
+
+选择运行于`x86`架构的发行版,在命令行通过命令:
+
+```bash
+wget https://repo.anaconda.com/archive/Anaconda3-2022.05-Linux-x86_64.sh
+```
+可以下载2022年05月份发行的x86-64架构下的linux发行版,如下图所示:
+![image.png](https://s2.loli.net/2022/06/29/tfrPGpTiAkgVl7B.png)
+
+#### 使用SHA256验证下载的安装程序的完整性
+
+点击链接[Anaconda installer file hashes](https://docs.anaconda.com/anaconda/install/hashes/)选择linux,查看对应发行版的hash值.
+
+打开终端,运行命令`sha256sum Anaconda3-2021.11-Linux-x86_64.sh`可以得到刚刚下载的安装程序的hash值,如下图所示:
+![image.png](https://s2.loli.net/2022/06/29/49cn3dbqWmlJSpy.png)
+和官网中给出的对应发行版的hash值进行比较,验证下载的安装程序是否完整
+
+在运行`sha256sum`程序的时候记得将Anaconda installer的路径替换为终端当前目录的相对路径
+
+#### 执行安装程序
+
+`./Anaconda3-2021.11-Linux-x86_64.sh`
+
+如果安装程序不是在终端所指示的当前目录下,更换为相对于当前终端路径的相对路径
+
+如下图所示:
+![image.png](https://s2.loli.net/2022/06/29/7DFkx3lay1i6fh9.png)
+
+#### 键入Enter查看许可协议
+
+#### 输入`yes`同意许可协议
+
+如下图所示:
+![image.png](https://s2.loli.net/2022/06/29/CsnOBQUd1AihWNj.png)
 
 
+#### 选择安装的路径
+
+在上面一步输入`yes`之后,就会进入到下面的选择安装路径操作:
+![image.png](https://s2.loli.net/2022/06/29/X1PFN34rU2VSwjK.png)
+
+安装程序提示键入Enter接受默认的安装路径,按CTRL-C取消安装,或者指定其它安装路径.
+
+如果键入enter选择默认的安装路径,如下图所示:
+![image.png](https://s2.loli.net/2022/06/29/nkWG1MDrjZtSxwu.png)
+显示安装后的相对路径,安装过程需要等待一段时间
+
+推荐使用默认的安装位置,不要使用`/usr`作为安装位置.
+
+#### 初始化
+
+当安装程序输出`Do you wish the installer to initialize Anaconda3 by running conda init?`,键入`yes`,如下图所示:
 
 
+如果输入的是`no`,那么conda不会修改shell脚本,为了安装完成后的初始化,需要首先运行`source <path to conda>/bin/activate`,然后再执行`conda init`初始化
 
