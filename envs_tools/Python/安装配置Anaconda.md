@@ -8,11 +8,9 @@ has_children: false
 parent: Python常用工具安装配置
 grand_parent: 常用环境工具软件
 ---
-{: .no_toc}
-
 <details open markdown="block">
   <summary>
-    Table of contents
+目录
   </summary>
   {: .text-delta }
 1. TOC
@@ -20,21 +18,14 @@ grand_parent: 常用环境工具软件
 </details>
 
 
-
+# Anaconda安装
 
 在安装或者使用Anaconda遇到问题的时候,先查文档,或者这个常见问题解决方法[Anaconda创建错误解决方法](https://docs.anaconda.com/anaconda/user-guide/troubleshooting/)
 
 
-
-
-
-## 安装Anaconda
-
 在Anaconda的官方文档有各个平台安装的注意事项,详情可以点击此处[Anaconda安装](https://docs.anaconda.com/anaconda/install/)
 
-
-
-### 在windows上安装Anaconda
+## 在windows上安装Anaconda
 
 下载安装程序,根据安装程序的指示,通过点击进行安装.
 
@@ -46,7 +37,7 @@ grand_parent: 常用环境工具软件
 
 下载地址:[https://repo.anaconda.com/archive/Anaconda3-2022.05-Windows-x86_64.exe](https://repo.anaconda.com/archive/Anaconda3-2022.05-Windows-x86_64.exe)
 
-#### 使用SHA-256验证下载的安装程序的完整性
+### 使用SHA-256验证下载的安装程序的完整性
 
 [Hashes for Anaconda3-2022.05-Windows-x86_64.exe](https://docs.anaconda.com/anaconda/install/hashes/Anaconda3-2022.05-Windows-x86_64.exe-hash/)
 
@@ -70,7 +61,7 @@ Get-FileHash Anaconda3-2022.05-Windows-x86_64.exe -Algorithm SHA256
 
 
 
-#### 双击运行安装程序
+### 双击运行安装程序
 
 注意
 {: .label .label-yellow  }
@@ -79,13 +70,13 @@ Get-FileHash Anaconda3-2022.05-Windows-x86_64.exe -Algorithm SHA256
 ![image.png](https://s2.loli.net/2022/06/28/CTx7cOufk6spwJU.png)
 上图Anaconda安装程序启动后的页面
 
-#### 点击下一步`Next`
+### 点击下一步`Next`
 
 阅读许可协议并点击`I Agree`
 
 ![image.png](https://s2.loli.net/2022/06/28/q9xYbGpiCzB1UEX.png)
 
-#### 选择安装选项为`Just Me`或`All users`,点击下一步
+### 选择安装选项为`Just Me`或`All users`,点击下一步
 
 为所有用户安装通常需要管理员用户权限
 ![image.png](https://s2.loli.net/2022/06/28/ElwmiPRNktTGvdx.png)
@@ -106,7 +97,7 @@ Anaconda的安装路径不能包含空格或者Unicode字符
 
 
 
-#### 选择是否需要将Anaconda添加到PATH环境变量中
+### 选择是否需要将Anaconda添加到PATH环境变量中
 
 官方的手册中建议不要将Anaconda添加到PATH环境变量中,因为这会干扰其它软件,建议通过开始菜单栏的`Anaconda Navigator`或者`Anaconda Prompt`来使用.
 ![image.png](https://s2.loli.net/2022/06/28/VyQ76Riaosbmd3z.png)
@@ -129,24 +120,25 @@ Anaconda的安装路径不能包含空格或者Unicode字符
 ![image.png](https://s2.loli.net/2022/06/28/xiWZeDaUMsKAdBv.png)
 
 
-#### 设置是否将其设置为默认的Python
+### 设置是否将其设置为默认的Python
 
 如果计划安装运行过个版本的Anaconda或者Python,不用勾选这个选项
 
 
 
-#### 点击`Install`等待安装完成
+### 点击`Install`等待安装完成
 
 ![image.png](https://s2.loli.net/2022/06/28/Pnjaxwvog1MWhfm.png)
 这个过程可能会非常耗时,耐心等待
 
-#### 点击`Next`
+### 点击`Next`
 
 ![image.png](https://s2.loli.net/2022/06/28/nreFMwR7D3Hpzm1.png)
 
-#### (可选)安装JetBrains的DataSpell
+### (可选)安装JetBrains的DataSpell
 ![image.png](https://s2.loli.net/2022/06/28/DOjXr8qVHYL7slU.png)
-#### 点击`Finish`完成安装
+
+### 点击`Finish`完成安装
 
 ![image.png](https://s2.loli.net/2022/06/28/JQHCZgNo1G6ADmV.png)
 
@@ -155,13 +147,13 @@ Anaconda的安装路径不能包含空格或者Unicode字符
 可以在开始菜单栏中找到安装的anaconda,如下图所示
 ![image.png](https://s2.loli.net/2022/06/28/U4APxslJtyY9epz.png)
 
-#### 验证安装
+### 验证安装
 
 如果使用公司代理,需要进行一些额外的设置,参考下面这个指导:[Proxy](https://docs.anaconda.com/anaconda/user-guide/tasks/proxy/)
 
 
 
-### 在Linux上安装Anaconda
+## 在Linux上安装Anaconda
 
 为了使用GUI包,需要先安装Qt依赖.
 对于*Debian*系列的发行版,可以通过下面的命令安装:
@@ -169,7 +161,7 @@ Anaconda的安装路径不能包含空格或者Unicode字符
 apt-get install libgl1-mesa-glx libegl1-mesa libxrandr2 libxrandr2 libxss1 libxcursor1 libxcomposite1 libasound2 libxi6 libxtst6
 ```
 
-#### 下载[Anaconda Installer for Linux](https://www.anaconda.com/download/#linux)
+### 下载[Anaconda Installer for Linux](https://www.anaconda.com/download/#linux)
 
 选择运行于`x86`架构的发行版,在命令行通过命令:
 
@@ -179,7 +171,7 @@ wget https://repo.anaconda.com/archive/Anaconda3-2022.05-Linux-x86_64.sh
 可以下载2022年05月份发行的x86-64架构下的linux发行版,如下图所示:
 ![image.png](https://s2.loli.net/2022/06/29/tfrPGpTiAkgVl7B.png)
 
-#### 使用SHA256验证下载的安装程序的完整性
+### 使用SHA256验证下载的安装程序的完整性
 
 点击链接[Anaconda installer file hashes](https://docs.anaconda.com/anaconda/install/hashes/)选择linux,查看对应发行版的hash值.
 
@@ -189,7 +181,7 @@ wget https://repo.anaconda.com/archive/Anaconda3-2022.05-Linux-x86_64.sh
 
 在运行`sha256sum`程序的时候记得将Anaconda installer的路径替换为终端当前目录的相对路径
 
-#### 执行安装程序
+### 执行安装程序
 
 `./Anaconda3-2021.11-Linux-x86_64.sh`
 
@@ -198,15 +190,15 @@ wget https://repo.anaconda.com/archive/Anaconda3-2022.05-Linux-x86_64.sh
 如下图所示:
 ![image.png](https://s2.loli.net/2022/06/29/7DFkx3lay1i6fh9.png)
 
-#### 键入Enter查看许可协议
+### 键入Enter查看许可协议
 
-#### 输入`yes`同意许可协议
+### 输入`yes`同意许可协议
 
 如下图所示:
 ![image.png](https://s2.loli.net/2022/06/29/CsnOBQUd1AihWNj.png)
 
 
-#### 选择安装的路径
+### 选择安装的路径
 
 在上面一步输入`yes`之后,就会进入到下面的选择安装路径操作:
 ![image.png](https://s2.loli.net/2022/06/29/X1PFN34rU2VSwjK.png)
@@ -219,10 +211,26 @@ wget https://repo.anaconda.com/archive/Anaconda3-2022.05-Linux-x86_64.sh
 
 推荐使用默认的安装位置,不要使用`/usr`作为安装位置.
 
-#### 初始化
+### 初始化
 
 当安装程序输出`Do you wish the installer to initialize Anaconda3 by running conda init?`,键入`yes`,如下图所示:
-
+![image.png](https://s2.loli.net/2022/06/29/Tp5ciktqSKnW3Lx.png)
 
 如果输入的是`no`,那么conda不会修改shell脚本,为了安装完成后的初始化,需要首先运行`source <path to conda>/bin/activate`,然后再执行`conda init`初始化
 
+### 安装完成
+
+等待安装程序运行结束,屏幕会输出"Thank you for installing Anaconda3"提示安装完成.如下图所示:
+![image.png](https://s2.loli.net/2022/06/29/mrFl3OuRPgo9tqn.png)
+后面在打开终端的时候,会自动激活Anaconda的默认Python环境,可以通过上面提示的命令来禁止自动激活Python环境`conda config --set auto_activate_base false`
+
+### 重启终端或者通过`source ~/.bashrc`来让安装生效.
+
+查看安装后的conda的版本
+![image.png](https://s2.loli.net/2022/06/29/bcJkdygl2EwHvuL.png)
+
+
+
+# conda基本用法
+
+本部分介绍conda的基本用法,包括创建修改删除虚拟环境,安装更新卸载依赖包等等
