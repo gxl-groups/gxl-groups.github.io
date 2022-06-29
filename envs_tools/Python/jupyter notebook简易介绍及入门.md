@@ -8,7 +8,6 @@ has_children: false
 grand_parent: 常用环境工具软件
 parent: Python常用工具安装配置
 ---
-{: .no_toc}
 
 <details open markdown="block">
   <summary>
