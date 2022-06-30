@@ -65,7 +65,7 @@ cuDNN下载网址：[https://developer.nvidia.com/rdp/cudnn-archive](https://dev
 - 输入 torch.cuda.is_available()<br>
 若输出结果为Ture，则安装成功，若为False，则失败<br>
 ![验证torch.png](https://s2.loli.net/2022/06/29/WOEveqpxCcDHUB7.png)<br>
-## 若输出为False ##
+若输出为False
 输入pip list,查看当前环境下有哪些包，若没有torch，则进入其官网进行下载<br>
 pytorch官网：[https://pytorch.org/](https://pytorch.org/)<br>
 ![torch.png](https://s2.loli.net/2022/06/29/4VRhYPTJCtoM81G.png)<br>
