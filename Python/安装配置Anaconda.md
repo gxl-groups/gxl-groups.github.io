@@ -5,8 +5,7 @@ nav_exclude: false
 search_exclude: false
 nav_order: 1
 has_children: false
-parent: Python常用工具安装配置
-grand_parent: 常用环境工具软件
+parent: Python
 ---
 <details open markdown="block">
   <summary>

@@ -6,6 +6,18 @@ permalink: /index
 nav_exclude: true
 search_exclude: false
 ---
+
+{: .no_toc }
+
+<details open markdown="block">
+  <summary>
+    目  录
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
+
 ### 页面概述
 
 使用*GitHub Pages*搭建的简易静态博客,用于记录研究生学习过程中遇到的问题和可行的解决方法,包括常见环境工具的安装使用,文献论文阅读记录,专业基础和读书笔记等等.

@@ -115,6 +115,15 @@ collections:
   envs_tools:
     permalink: "/:collection/:path/"
     output: true
+  Python:
+    permalink: "/:collection/:path/"
+    output: true
+  CV:
+    permalink: "/:collection/:path/"
+    output: true
+  CG:
+    permalink: "/:collection/:path/"
+    output: true
 
 GXL-Groups:
   # Define which collections are used in just-the-docs
@@ -138,7 +147,34 @@ GXL-Groups:
       # Exclude the collection from the search
       # Supports true or false (default)
       search_exclude: false
-    
+    Python:
+      # Give the collection a name
+      name: python
+      # Exclude the collection from the navigation
+      # Supports true or false (default)
+      nav_exclude: false
+      # Exclude the collection from the search
+      # Supports true or false (default)
+      search_exclude: false    
+    CV:
+      # Give the collection a name
+      name: computer vision
+      # Exclude the collection from the navigation
+      # Supports true or false (default)
+      nav_exclude: false
+      # Exclude the collection from the search
+      # Supports true or false (default)
+      search_exclude: false
+    CG:
+      # Give the collection a name
+      name: computer grapic
+      # Exclude the collection from the navigation
+      # Supports true or false (default)
+      nav_exclude: false
+      # Exclude the collection from the search
+      # Supports true or false (default)
+      search_exclude: false
+
 
 # 关闭压缩html
 compress_html:

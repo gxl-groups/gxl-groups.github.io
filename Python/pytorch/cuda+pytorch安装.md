@@ -3,10 +3,10 @@ title: CUDA+PyTorch安装
 layout: default
 nav_exclude: false
 search_exclude: false
-nav_order: 4
+nav_order: 1
 has_children: false
-grand_parent: 常用环境工具软件
-parent: Python常用工具安装配置
+parent: pytorch
+grand_parent: Python
 ---
 
 
