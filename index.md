@@ -62,7 +62,7 @@ search_exclude: false
 
 ### 文件下载
 
-[测试](https://raw.githubusercontent.com/gxl-groups/gxl-groups.github.io/blob/main/slides/黄洁-经验分享.pdf)
+[测试](https://raw.githubusercontent.com/gxl-groups/gxl-groups.github.io/main/slides/黄洁-经验分享.pdf)
 
 ### TODO
 
