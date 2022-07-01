@@ -58,15 +58,25 @@ search_exclude: false
 
 ### 在线直接预览Github的repo上的pdf
 
-[测试](https://gxl-groups.github.io/slides/黄洁-经验分享.pdf)
+将文件放到Github Pages站点下的文件夹,按照内容类别分类存放,使用的方式一般为`[文件名](https://gxl-groups.github.io/pathname/filename.pdf)`,如下面的例子:
+
+[黄洁-经验分享.pdf](https://gxl-groups.github.io/slides/黄洁-经验分享.pdf)
+
+[数据分析与可视化.pptx](https://gxl-groups.github.io/slides/数据分析与可视化.pptx)
 
 ### 文件下载
 
-[测试](https://raw.githubusercontent.com/gxl-groups/gxl-groups.github.io/main/slides/黄洁-经验分享.pdf)
+文件下载链接的一般格式是`[文件名](https://raw.githubusercontent.com/github用户名/githubrepo名/分支名/pathname/filename)`
+
+
+[黄洁-经验分享.pdf](https://raw.githubusercontent.com/gxl-groups/gxl-groups.github.io/main/slides/黄洁-经验分享.pdf)
+
+[数据分析与可视化.pptx](https://raw.githubusercontent.com/gxl-groups/gxl-groups.github.io/main/slides/数据分析与可视化.pptx)
+
 
 ### TODO
 
-- [ ] 文件下载功能
+- [x] 文件下载功能
 - [ ] 评论反馈功能
 - [ ] Github pages 协同编写更新
 - [ ] ......
