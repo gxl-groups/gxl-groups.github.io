@@ -55,6 +55,14 @@ search_exclude: false
 4. 注意:
 
 - 如果在文档中需要插入图片,建议先将图片上传到图床,然后再根据图床中图片的url进行插入.用起来很好的图床推荐:[SM.MS](https://sm.ms/)
+- 插入图片也可以先将图片放到当前目录`images`下,然后使用相对于当前根目录的方法,比如在`images`下有一张名为`邀请成员.png`的图片,可以这样使用`![邀请成员](/images/邀请成员.png)`,效果如下图所示:![邀请成员](/images/邀请成员.png)
+
+### TODO
+
+- [x] 文件下载功能
+- [ ] 评论反馈功能
+- [x] Github pages 协同编写更新
+- [ ] ......
 
 ### 在线直接预览Github的repo上的pdf
 
@@ -74,9 +82,18 @@ search_exclude: false
 [数据分析与可视化.pptx](https://raw.githubusercontent.com/gxl-groups/gxl-groups.github.io/main/slides/数据分析与可视化.pptx)
 
 
-### TODO
+### 邀请成员协同参与编写
 
-- [x] 文件下载功能
-- [ ] 评论反馈功能
-- [ ] Github pages 协同编写更新
-- [ ] ......
+1. 点击`Add people`选项
+![](https://s3.bmp.ovh/imgs/2022/07/01/c030c38f561f08e0.png)
+
+2. 输入协作人员的github的用户名
+![](https://s3.bmp.ovh/imgs/2022/07/01/f6a7c04bb22cc4ec.png)
+
+3. 设置邀请协作人员的权限
+![](https://s3.bmp.ovh/imgs/2022/07/01/713ae0c38d11afe3.png)
+
+4. 等待成员同意
+
+5. 协作者再编写页面时应该先从远端拉取最新的项目到本地,然后编写页面,添加提交,将编写后的最新项目推送到远端.
+
