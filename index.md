@@ -56,7 +56,13 @@ search_exclude: false
 
 - 如果在文档中需要插入图片,建议先将图片上传到图床,然后再根据图床中图片的url进行插入.用起来很好的图床推荐:[SM.MS](https://sm.ms/)
 
+### 在线直接预览Github的repo上的pdf
 
+[测试](https://gxl-groups.github.io/slides/黄洁-经验分享.pdf)
+
+### 文件下载
+
+[测试](https://raw.githubusercontent.com/gxl-groups/gxl-groups.github.io/blob/main/slides/黄洁-经验分享.pdf)
 
 ### TODO
 
