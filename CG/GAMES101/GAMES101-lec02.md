@@ -40,7 +40,7 @@ parent: GAMES101
 
 ### 1. 向量的表示
 
-- 字母上面加箭头$\vec{a}$或者黑体加粗$\boldsymbol{a}$
+- 字母上面加箭头 $\vec{a}$ 或者黑体加粗 $\boldsymbol{a}$
 - 使用起点和终点:$\vec{AB} = B - A$
 ![](https://s2.loli.net/2022/07/02/G6L7jPZFrYywIAW.png)
 
@@ -57,28 +57,19 @@ parent: GAMES101
 
 ### 5. 向量点乘*dot product*
 
-$$
- \vec{a} \cdot \vec{b}=\|\vec{a}\|\|\vec{b}\| \cos \theta \\
-  \cos \theta=\frac{\vec{a} \cdot \vec{b}}{\|\vec{a}\|\|\vec{b}\|} 
-$$
+$$ \vec{a} \cdot \vec{b}=\|\vec{a}\|\|\vec{b}\| \cos \theta \\
+  \cos \theta=\frac{\vec{a} \cdot \vec{b}}{\|\vec{a}\|\|\vec{b}\|} $$
 
-- 对于单位向量
-
-$$
-
- \cos \theta=\hat{a} \cdot \hat{b} 
-$$
+- 对于单位向量 $\cos \theta=\hat{a} \cdot \hat{b}$
 
 ![](https://s2.loli.net/2022/07/02/V8omiMHuXLSYq2d.png)
 
 - 性质
-$$
-\begin{array}{l}
+$$\begin{array}{l}
 \vec{a} \cdot \vec{b}=\vec{b} \cdot \vec{a} \\
 \vec{a} \cdot(\vec{b}+\vec{c})=\vec{a} \cdot \vec{b}+\vec{a} \cdot \vec{c} \\
 (k \vec{a}) \cdot \vec{b}=\vec{a} \cdot(k \vec{b})=k(\vec{a} \cdot \vec{b})
-\end{array}
-$$
+\end{array}$$
 
 - 笛卡尔坐标系下点乘的表示(逐个分量做乘法,然后相加)
 
@@ -88,9 +79,7 @@ y_{a}
 \end{array}\right) \cdot\left(\begin{array}{l}
 x_{b} \\
 y_{b}
-\end{array}\right)=x_{a} x_{b}+y_{a} y_{b}$$
-
-$$
+\end{array}\right)=x_{a} x_{b}+y_{a} y_{b}\newline
 \vec{a} \cdot \vec{b}=\left(\begin{array}{c}
 x_{a} \\
 y_{a} \\
@@ -99,8 +88,7 @@ z_{a}
 x_{b} \\
 y_{b} \\
 z_{b}
-\end{array}\right)=x_{a} x_{b}+y_{a} y_{b}+z_{a} z_{b}
-$$
+\end{array}\right)=x_{a} x_{b}+y_{a} y_{b}+z_{a} z_{b}$$
 
 - 点乘的投影:
 ![](https://s2.loli.net/2022/07/02/a4Sl6TUeLh9KgBd.png)
@@ -116,29 +104,23 @@ $$
 向量叉乘的结果垂直于原来的两个向量;通过右手定则确定叉乘的结果的方向;在构造坐标系的时候非常有用
 
 - 性质:
-$$
-\begin{array}{lc}
+$$\begin{array}{lc}
 \vec{x} \times \vec{y}=+\vec{z} & \vec{a} \times \vec{b}=-\vec{b} \times \vec{a} \\
 \vec{y} \times \vec{x}=-\vec{z} & \vec{a} \times \vec{a}=\overrightarrow{0} \\
 \vec{y} \times \vec{z}=+\vec{x} & \vec{a} \times(\vec{b}+\vec{c})=\vec{a} \times \vec{b}+\vec{a} \times \vec{c} \\
 \vec{z} \times \vec{y}=-\vec{x} & \vec{a} \times(k \vec{b})=k(\vec{a} \times \vec{b}) \\
 \vec{z} \times \vec{x}=+\vec{y} & \\
 \vec{x} \times \vec{z}=-\vec{y} &
-\end{array}
-$$
+\end{array}$$
 
 - 笛卡尔坐标系下表示
-$$
-\vec{a} \times \vec{b}=\left(\begin{array}{c}
+$$\vec{a} \times \vec{b}=\left(\begin{array}{c}
 y_{a} z_{b}-y_{b} z_{a} \\
 z_{a} x_{b}-x_{a} z_{b} \\
 x_{a} y_{b}-y_{a} x_{b}
 \end{array}\right)
-$$
-
-$$
- \vec{a} \times \vec{b}=A^{*} b=\left(\begin{array}{ccc}0 & -z_{a} & y_{a} \\ z_{a} & 0 & -x_{a} \\ -y_{a} & x_{a} & 0\end{array}\right)\left(\begin{array}{l}x_{b} \\ y_{b} \\ z_{b}\end{array}\right) 
- $$
+\newline
+\vec{a} \times \vec{b}=A^{*} b=\left(\begin{array}{ccc}0 & -z_{a} & y_{a} \\ z_{a} & 0 & -x_{a} \\ -y_{a} & x_{a} & 0\end{array}\right)\left(\begin{array}{l}x_{b} \\ y_{b} \\ z_{b}\end{array}\right)$$
 
 - 几何意义
 
@@ -156,21 +138,14 @@ $$
 ![](https://s2.loli.net/2022/07/02/9eEZKXhMF65fLcq.png)
 
 三维正交坐标系:
-$$
-
-
-
-
-
-\begin{array}{l}
+$$\begin{array}{l}
 \|\vec{u}\|=\|\vec{v}\|=\|\vec{w}\|=1\\
 \vec{u} \cdot \vec{v}=\vec{v} \cdot \vec{w}=\vec{u} \cdot \vec{w}=0\\
 \vec{w}=\vec{u} \times \vec{v}
 \text { (right-handed) }\\
 \vec{p}=(\vec{p} \cdot \vec{u}) \vec{u}+(\vec{p} \cdot \vec{v}) \vec{v}+(\vec{p} \cdot \vec{w}) \vec{w}\\
 \text { (projection) }
-\end{array}
-$$
+\end{array}$$
 
 ## 矩阵*Matrices*
 

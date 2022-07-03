@@ -3,7 +3,7 @@ title: Computer-Graphics
 layout: default
 nav_exclude: false
 search_exclude: false
-nav_order: 1
+nav_order: 2
 has_children: true
 ---
 
