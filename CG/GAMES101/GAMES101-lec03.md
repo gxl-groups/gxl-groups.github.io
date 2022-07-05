@@ -2,9 +2,9 @@
 layout: default
 title: GAMES101-lec03
 layout: default
-nav_exclude: false
+nav_exclude: true
 search_exclude: false
-nav_order: 4
+nav_order: 5
 has_children: false
 grand_parent: Computer-Graphics
 parent: GAMES101

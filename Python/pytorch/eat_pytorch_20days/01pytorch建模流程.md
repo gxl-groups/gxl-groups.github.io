@@ -1,3 +1,6 @@
+---
+nav_exclude: true
+---
 ## Pytorch建模流程概述
 
 使用pytorch实现神经网络模型的一般流程:

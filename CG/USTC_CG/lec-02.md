@@ -1,3 +1,7 @@
+---
+nav_exclude: true
+---
+
 ![](https://s2.loli.net/2022/07/03/g91XIMkGlsScVZo.png)
 
 人外有人,山外有山,永葆谦虚,不断学习.

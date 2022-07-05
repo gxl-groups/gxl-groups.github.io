@@ -1,0 +1,10 @@
+# 指定Cmake最低编译版本
+cmake_minimum_required (VERSION 2.8.11)
+# 指定工程名
+project (Transformation)
+# 查找头文件
+find_package(Eigen3 REQUIRED)
+# 指定头文件目录位置
+include_directories(EIGEN3_INCLUDE_DIR)
+# 生成可执行文件Transformation main.cpp是源文件
+add_executable (Transformation main.cpp)
