@@ -12,7 +12,7 @@ parent: GAMES101
 
 # GAMES101 PA0
 
-作业pa0文档的一份复制:[pa0](https://gxl-groups.github.io/CG/GAMES101/PA0/pa0.pdf)
+作业pa0文档的一份复制:[pa0](https://gxl-groups.github.io/CG/GAMES101/PA/pa0/pa0.pdf)
 
 GAMES101 pa0的主要目的是配置和熟悉开发环境.
 
